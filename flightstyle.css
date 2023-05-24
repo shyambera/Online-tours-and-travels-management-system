@@ -4,6 +4,14 @@
     margin-left: 5%;
    
   }
+
+ #logofi{
+      background-image: url(logoflight.png); 
+      height: 50px;
+      margin-left: 34px; 
+      background-repeat: no-repeat;
+      background-color: #808080;
+      width: 35%; 
   
   .wrapper2 {
     max-width: 645px;
