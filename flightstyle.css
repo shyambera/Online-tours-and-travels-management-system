@@ -39,6 +39,10 @@
     border: none;
     font-family: inherit;
   }
+     
+   {
+       dispay :flex;
+     }
   #bab1 {
     display: block;
     margin-top: 32px;
