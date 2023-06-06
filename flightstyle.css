@@ -691,4 +691,96 @@
       text-decoration: none;
   }
   
-
+  }
+  .checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 13px;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: transparent;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 7px;
+    height: 10px;
+    border: solid #00ad5f;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .col-2 {
+    width: -webkit-calc((100% - 60px) / 2);
+    width: -moz-calc((100% - 10px) / 2);
+    width: calc((100% - 50px) / 2);
+    width: 100%;
+  }
+  
+  @media (max-width: 797px) {
+    .col-2 {
+      width: 100%;
+    }
+  }
+   .fighbox
+  {
+             width:50%;
+              margin-top: 8%;
+              border: 1pc solid #fff;
+              box-shadow: 0 15px 40px rgba(0,0,0,1.8);
+              border-radius: 34px 120px 5px 23px;
+              background: #fff;
+              position: absolute;
+              margin-left: 23%;
+              background-image: url(bg.jpg);
+   }
+  a{
+      text-decoration: none;
+  }
+  
+ #logofi{
+      background-image: url(logoflight.png); 
+      height: 50px;
+      margin-left: 34px; 
+      background-repeat: no-repeat;
