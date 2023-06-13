@@ -114,6 +114,22 @@ export default function Header() {
                         <p className="text-600">Cart</p>
                     </div>
                 </div>)
+                
+                 <button className="bg-blue-600 px-2 py-1 rounded-md hover:bg-blue-700"
+                        onClick={handleLogin}
+                    >Login</button>
+
+                    <button className="bg-blue-600 px-2 py-1 rounded-md hover:bg-blue-700"
+                        onClick={handleRegister}
+                    >Register</button>
+
+                    <div className="bg-white border-blue-600 text-red-500 px-2 py-1 rounded-lg flex items-center gap-1 cursor-pointer"
+                        onClick={handleCart}
+                    >
+                        <BsFillCartFill />
+                        <p className="text-600">Cart</p>
+                    </div>
+                </div>)
                 : (
                     <div className="flex gap-4">
                         <button className="bg-blue-600 px-2 py-1 rounded-md hover:bg-blue-700"
