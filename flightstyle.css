@@ -102,6 +102,11 @@
     resize: none;
   }
   
+  input:disabled {
+    background: transparent;
+    cursor: pointer;
+  }
+          
   button {
     cursor: pointer;
   }
