@@ -52,6 +52,7 @@ switch ($favcolor) {
             echo "My dog is ". $color ."</br>";  
             echo "My Phone is ". $COLOR ."</br>";  
             echo "My watch is ". $COLOR ."</br>";  
+            echo "My stuff is ". $COLOR ."</br>";  
         ?>  
     </body>  
 </html>  
