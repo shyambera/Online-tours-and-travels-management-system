@@ -141,6 +141,7 @@
   .input--style-1 {
     font-weight: 700;
     font-size: 12px;
+    height: 50px;
     padding: 15px 0;
     color: #666;
     background-image: url(bg.jpg);
